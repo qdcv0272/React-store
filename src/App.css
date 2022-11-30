@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #212529;
+  color: azure;
+}
+
+.container {
+  border-bottom: 1px solid white;
+}

@@ -1,0 +1,18 @@
+.slice-h2 {
+  text-align: center;
+  color: aliceblue;
+}
+
+.slider {
+  color: aliceblue;
+}
+
+.img {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.slick-dots {
+  margin-bottom: 70px;
+}
