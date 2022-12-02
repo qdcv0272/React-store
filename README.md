@@ -11,5 +11,6 @@ https://precious-sunshine-b77495.netlify.app
   <img src="https://img.shields.io/badge/JavaScript-orange?style=social&logo=JavaScript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Bootstrapap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/react-redux-red" />
 </p>
 <hr/>
