@@ -15,4 +15,6 @@ https://precious-sunshine-b77495.netlify.app
   <img src="https://img.shields.io/badge/react-Slider-red" />
   <img src="https://img.shields.io/badge/react-Router-blue" />
 </p>
+
+아직 부족한거 많지만 계속발전하고 있습니다.
 <hr/>
