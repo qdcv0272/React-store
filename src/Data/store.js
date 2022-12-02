@@ -30,8 +30,6 @@ const cart = createSlice({
         return a.id === action.payload;
       });
       state[findId].count++;
-
-      state[findId].price += state[findId].price;
     },
     subtract(state, action) {
       const findId = state.findIndex((a) => {

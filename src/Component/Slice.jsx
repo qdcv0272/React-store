@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import "./Slice.css";
 
 import Slider from "react-slick";
-import phone from "/Users/changhunkim/Desktop/React/store/src/img/phone.png";
-import ipad from "/Users/changhunkim/Desktop/React/store/src/img/ipad.png";
-import mac from "/Users/changhunkim/Desktop/React/store/src/img/mac.png";
-import watch from "/Users/changhunkim/Desktop/React/store/src/img/watch.png";
-import air from "/Users/changhunkim/Desktop/React/store/src/img/air.png";
+import phone from "../img/phone.png";
+import ipad from "../img/ipad.png";
+import mac from "../img/mac.png";
+import watch from "../img/watch.png";
+import air from "../img/air.png";
 
 export default class Slice extends Component {
   render() {

@@ -6,6 +6,7 @@ import {
 import app from "../Data/firebase";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Button } from "react-bootstrap";
 
 function Login() {
   const auth = getAuth(app);
@@ -64,8 +65,12 @@ function Login() {
           setPassword(e.target.value);
         }}
       />
-      <button onClick={signup}>created</button>
-      <button onClick={signIn}>sign up</button>
+      <Button variant="outline-secondary" onClick={signup}>
+        created
+      </Button>
+      <Button variant="outline-secondary" onClick={signIn}>
+        sign up
+      </Button>
       {isLogin === true ? page("../") : null}
     </div>
   );

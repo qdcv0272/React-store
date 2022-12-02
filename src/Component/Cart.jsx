@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Table, Button } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { deleteItem, plus, subtract } from "../Data/store";
@@ -24,13 +24,15 @@ export default function Cart(props) {
         </thead>
         <tbody>
           {data.cart.map((a, i, array) => {
+            let total = [];
+            total[i] = Number(data.cart[i].count * data.cart[i].price);
             return (
               <tr key={i}>
                 <td>{data.cart[i].id}</td>
                 <td>{data.cart[i].title}</td>
                 <td>{data.cart[i].content}</td>
                 <td>{data.cart[i].count}</td>
-                <td>{`${array[i].price} 원`}</td>
+                <td>{`${total[i]} 원`}</td>
                 <td>
                   <Button
                     variant="outline-secondary"
